@@ -35,14 +35,25 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 **Procedure**
 
 /* write all the steps invloved */
+1. Write the Verilog module for the SR flip-flop using inputs S and R and define the output behavior using an always block.
+2. Create a testbench that applies all input combinations to the flip-flop.
+3. Run the simulation in a Verilog simulator to observe the output.
+4. Compare the simulated outputs with the SR flip-flop functional table.
+5. Confirm whether the design matches the expected truth table and record the results.
+
+
 
 **PROGRAM**
+<img width="1920" height="1080" alt="SR flipflop program" src="https://github.com/user-attachments/assets/c2697073-fb1e-42f3-a36d-7c6c680dbd77" />
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 
 **RTL LOGIC FOR FLIPFLOPS**
+<img width="1108" height="580" alt="SR flipflop RTL diagram" src="https://github.com/user-attachments/assets/fa86bdcc-09f2-49a8-bf6b-e36ec4ac55a6" />
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+<img width="1920" height="1080" alt="SR flipflop wave diagram" src="https://github.com/user-attachments/assets/95347291-c4dd-428c-97d9-f075b780da5b" />
 
 **RESULTS**
+Thus the program to implement SR flipflop using verilog and validating their functionality using their functional tables.
